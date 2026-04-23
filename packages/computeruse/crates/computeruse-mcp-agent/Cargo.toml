@@ -84,7 +84,7 @@ chrono = { workspace = true }
 
 [dev-dependencies]
 tokio-test = "0.4"
-rand = "0.8"
+rand = "0.9"
 
 [[example]]
 name = "computeruse-ai-summarizer"

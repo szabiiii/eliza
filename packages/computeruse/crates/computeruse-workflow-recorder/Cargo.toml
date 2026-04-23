@@ -41,7 +41,7 @@ rmcp = { version = "0.9", features = ["server"] }         # For MCP types
 tempfile = "3.0"
 criterion = "0.5"                                           # For benchmarking
 sysinfo = { workspace = true }                              # For CPU monitoring
-rand = "0.8"                                                # For random element selection in benchmarks
+rand = "0.9"                                                # For random element selection in benchmarks
 
 # Windows-specific dependencies
 [target.'cfg(target_os = "windows")'.dependencies]
